@@ -486,3 +486,11 @@ p {
 .midnight {
   color: #2c3e50;
 }
+
+.row1{
+  background-color: white;
+  display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+}

@@ -198,8 +198,6 @@ const phrases = [
   'Each idea solving a differnt problem',
   'That makes life....',
   'A little better for everyone',
-  'One piece of code at a time',
-  'Make a Memory',
   'To last a lifetime',
   'Lets build something great together',
   'Contact me today',
