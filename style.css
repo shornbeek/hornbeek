@@ -283,39 +283,37 @@ header.box-content {
 
 
 .icon-button {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+   -webkit-transition-duration: 0.4s; /* Safari */
     width: 100px;
     height: 100px;
     float: left;
     background: white;   
     margin: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
 
 
 }
 
 .icon-button:hover {
-    width: 100px;
-    height: 100px;
-    float: left;
-    background: #4169e1;   
-    margin: 15px;
-    border-radius: 20px;
-    
-}
-
-.icon-button1 {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
-    width: 100px;
+     width: 100px;
     height: 100px;
     float: left;
     background: white;   
     margin: 15px;
     border-radius: 20px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+    
+}
+
+.icon-button1 {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: white;   
+    margin: 15px;
+    border-radius: 10px;
      
 
 }
@@ -324,90 +322,94 @@ header.box-content {
     width: 100px;
     height: 100px;
     float: left;
-    background: #ff0000;   
+    background: white;   
     margin: 15px;
     border-radius: 20px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
 }
 
 .icon-button2 {
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
     width: 100px;
     height: 100px;
     float: left;
     background: white;   
     margin: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .icon-button2:hover {
     width: 100px;
     height: 100px;
     float: left;
-    background: #ffd700;   
+    background: white;   
     margin: 15px;
     border-radius: 20px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
 }
 
 .icon-button3 {
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
     width: 100px;
     height: 100px;
     float: left;
     background: white;   
     margin: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .icon-button3:hover {
     width: 100px;
     height: 100px;
     float: left;
-    background: #4169e1;   
+    background: white;   
     margin: 15px;
     border-radius: 20px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
 }
 
 .icon-button4 {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+   -webkit-transition-duration: 0.4s; /* Safari */
     width: 100px;
     height: 100px;
     float: left;
     background: white;   
     margin: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
+
 .icon-button4:hover {
     width: 100px;
     height: 100px;
     float: left;
-    background: #228b22;   
+    background: white;   
     margin: 15px;
     border-radius: 20px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
 }
 
 .icon-button5 {
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: white;   
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.icon-button5:hover {
     width: 100px;
     height: 100px;
     float: left;
     background: white;   
     margin: 15px;
     border-radius: 20px;
-}
-.icon-button5:hover {
-    width: 100px;
-    height: 100px;
-    float: left;
-    background: #ff0000;   
-    margin: 15px;
-    border-radius: 20px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
 }
 
 
