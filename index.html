@@ -1,113 +1,22 @@
-<html>
- 
- <head>
-  
-  <!-- Links to javascript files p5 js -->
-  
- 
-  <!-- Style Sheets -->
-  <meta charset="character_set">
-  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-  <script language="javascript" src="libraries/p5.dom.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="import" href="nav.html">
 
- 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+<html lang="en">
+<head>
+  <title>Hornbeek Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1_text.css">
 
-
-<script language="javascript" type="text/javascript" src="sketch_copy.js"></script>
-<script language="javascript" type="text/javascript" src="sketch.js"></script>
-<script language="javascript" type="text/javascript" src="blob.js"></script>
-
-
-<!-- Navagation bar -->
-<nav class="navbar navbar-toggleable-md navbar-light navbar-fixed-top">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">Hornbeek</a>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-      <li class="nav-item active">
-        <a class="nav-link " href="http://www.doyoubuzz.com/stephen-hornbeek" target="_blank" >Resume <span class="sr-only " >(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="http://www.soulathlete.com">Contact</a>
-      </li>
-    </ul>
-    <div>
-<!-- The Apple Button -->
-  <center><img class="icon-button" src="https://www.logodesignlove.com/images/classic/apple-logo-rob-janoff-01.jpg" alt="apple is iconic" id="apple">
-
-</div>
-
-<!-- The Apple Modal -->
-<div id="myModal1" class="modal">
-
-  <!-- Modal Apple content -->
-  <div class="modal-content">
-    <span class="close1">&times;</span>
-    <p>Steve Jobs! Apple, The Past.</p><img class= container src="http://www.animationmagazine.net/wordpress/wp-content/uploads/steve-jobs-1955-2011-post.jpg" id="steve">
-  </div>
-
-</div>
-
-
-
-    <div>
-<!-- The Android Button -->
-  <div>
-
-  <center><img class="icon-button" src="https://www.ipbrick.com/wp-content/uploads/2014/02/Android.png" alt="android is awesome" id="android">
-
-</div>
-
-</div>
-      
-<!-- The Android Modal -->
-<div id="myModal2" class="modal">
-
-  <!-- Modal Android content -->
-  <div class="modal-content">
-    <span class="close2">&times;</span>
-    <p>Larry Page! Android, The Future.</p><img class= container src="https://static01.nyt.com/images/2016/01/24/business/24page-illo-web1/24page-illo-web1-master768.jpg" id="larry">
-  </div>
-
-</div>
-  
-<!-- The Microsoft Button -->
-  <div>
-    <center><img class="icon-button" src="http://diylogodesigns.com/blog/wp-content/uploads/2016/04/Microsoft-Logo-icon-png-Transparent-Background.png" alt="and microsoft" id="microsoft">
-
-</div>
-
-</div>
-    
-<!-- The Microsoft Modal -->
-<div id="myModal3" class="modal">
-
-  <!-- Modal Microsoft content -->
-  <div class="modal-content">
-    <span class="close3">&times;</span>
-    <p>Bill Gates! Microsoft, Engineering Life. </p><img class= container src="http://www.businessmantraa.in/wp-content/uploads/2017/03/Bill-gates-biography.jpg" id="bill">
-  </div>
-
-</div>
-    <div id="bl" style="visibility: visible"><font size=+2 color=red>Hire Me!</font></div>
-  </div>
-</nav>
-
-
-
+<script defer src=main.js></script> 
+<script defer src=main1.js></script>
 
 </head>
 
@@ -116,310 +25,89 @@
 
 
 
-<hr />
+  <div class="wrapper">
+  <header role="header">
 
+  </header>
 
+  <section id="home" class="sec-main">
+    <div class="container">
+    <div class="text"></div>
+  </div>
+    
+  </section>
 
-
-<!-- button container  -->
-     <div class="container">
+  <div class="container" class="center-btn">
       <form  action="https://www.behance.net/stephen_hobb3e" target="_blank" >
-    	<input class="btn btn-outline-secondary" type="submit" value="Behanced" /></form>
+      <input class="icon-button" type="submit" value="Behanced" /></form>
    
-	  <form  action="http://www.coroflot.com/stephen_hornbeek" target="_blank">
-    	<input class="btn btn-outline-secondary" type="submit" value="Coroflot" /></form>
+    <form  action="http://www.coroflot.com/stephen_hornbeek" target="_blank">
+      <input class="icon-button1" type="submit" value="Coroflot" /></form>
    
-	  <form action="http://www.soulathlete.com" target="_blank">
-         <input class="btn btn-outline-secondary" type="submit" value="SoulAthlete" /></form>
+    <form action="http://www.soulathlete.com" target="_blank">
+         <input class="icon-button2" type="submit" value="SoulAthlete" /></form>
 
-	  <form action="https://codepen.io/Shornbeek/" target="_blank">
-    	  <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
+    <form action="https://codepen.io/Shornbeek/" target="_blank">
+        <input class="icon-button3" type="submit" value="CodePen" /></form>
 
-	  <form action="https://invis.io/J8BVEWMG5#/259549770_Cover_Port_1" target="_blank">
-          <input class="btn btn-outline-secondary" type="submit" value="Invision" /></form>
+    <form action="https://invis.io/J8BVEWMG5#/259549770_Cover_Port_1" target="_blank">
+          <input class="icon-button4" type="submit" value="Invision" /></form>
 
        <form action="http://www.linkedin.com/pub/stephen-hornbeek/27/5a4/628">
-          <input class="btn btn-outline-secondary" type="submit" value="Linkedin" /></form>
+          <input class="icon-button5" type="submit" value="Linkedin" /></form>
     </div>
 
 
-    <div class="box-content"> <center><img class="container black-border"  <img src="https://preview.ibb.co/kpWJNG/nametag.jpg" alt="nametag" border="0"></a> <alt= " Hello from Hornbeek"> 
-<div id="box"></div>
+  <section id="about" class="sec-about">
     <div class="container">
+      <h1>About me</h1>
 
+      <hr />
 
-
-   
-
-<!-- Extra boxes -->
-    
-    <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="http://www.lifewithoutpink.com/wp-content/uploads/2013/05/creativity-studio.jpg"><p>Disney Kid Designs Creativity Studio</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-
-      <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="http://www.iheartinfinity.com/wp-content/uploads/2014/10/Disney-Infinity-Mr-Incredible-Crystal-Character.jpg"><p>Disney Infinity hardware and accessories</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-      <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="https://images-na.ssl-images-amazon.com/images/I/51TsmJgW5TL.gif"><p>Pictured is Disney Infinity product launch team</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-     <section class="box">
-    <div class="box-content"> <center><img class="container1" src="https://image.ibb.co/eWuEew/Untitled_1.png" alt="Untitled_1" border="0"></a><p>Disney Princess AR app</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-
-     <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="http://4.bp.blogspot.com/_OftOvlvfAww/TK4AeG1LusI/AAAAAAAAAAM/2WDIbIWRd6U/s1600/what_dog.png"><p>Puppy Tweets app and dog tracker</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-      <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="https://i.pinimg.com/originals/3c/69/25/3c6925352845aaeb649220634a0a673a.jpg"><p>Design manager for Disney consumer electronics. $80 million in revenue</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-      <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="http://www.24-7pressrelease.com/attachments/042/press_release_distribution_0424482_102386_2.jpg"><p>SoulAthlete is a fitness app. Fantasy sports for fitness.</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-      <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="http://ww1.prweb.com/prfiles/2012/11/08/10067075/Frame-O-Dex%20picture%20frame.jpg"><p>Frame O Dex pattent pending</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-     <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="http://ww1.prweb.com/prfiles/2008/12/28/515724/pressre312.jpg"><p>Pictured is Bob Dylan smiling after eating some corn with his girlfriend.</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-      <section class="box">
-    <div class="box-content"> <center><img class="container1"   src="https://i.ytimg.com/vi/lg_2j0TT8hw/maxresdefault.jpg"><p>Pictured is Bob Dylan smiling after eating some corn with his girlfriend.</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p> </section>
-
-
-
-      <section class="box"><center><img class="container1"   src="https://i.ytimg.com/vi/yJowQUmI8W0/maxresdefault.jpg" alt="Boys Life Magazine 2015."> <p>MindCraft YouTube Video Ninja Turtles. Don't Play on the computer!</p><form action="https://youtu.be/yJowQUmI8W0" target="_blank">
-        <input class="btn btn-outline-secondary" type="submit" value="Youtube" /></form></section>
-
-
-    	
-    	<section class="box">
-    <div class="box-content"> <center><img class="container1"   src="http://henrymakow.com/upload_images/DYLAN.JPG" alt="Robot Or Man."><p>Pictured is Bob Dylan smiling after eating some corn with his girlfriend.</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-    	  <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-     </p></section>
-
-   
-    
-    <div class="box-content"> <center><img class="container black-border"  src="http://s3.otherpeoplespixels.com/sites/3392/assets/wQjRNdovg1gAM_lr.jpg" alt="Boys Life Magazine 2015."><p>Boys Life Magazine</p>  <form action="https://codepen.io/Shornbeek/" target="_blank">
-    	  <input class="btn btn-outline-secondary" type="submit" value="CodePen" /></form>
-      </p>
-    		</div>
-		</div>
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <p>I've developed brands and products for companies including Disney, Pixar, Twitter, Fisher Price, Tetris, Mattel, Vtech, Leapfrog, iHome, and Moen. This experience has given me a solid understanding of corporate design, consumer presence, and cost effective problem solving.   Good design is good business. How can I build your brands?
+            
+        </div>
+      </div>
     </div>
-   <hr />
+  </section>
+  <section id="services" class="sec-services">
+    <div class="container">
+      <h1>Skills</h1>
 
+      <hr />
 
+      <div class="row">
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-paint-brush"></i>
 
+          <h2 class="h3">Project Management</h2>
 
+          <p>Design management, business development, art direction, product design, toy design, game design, content strategy, digital applications, international sourcing, field research, brand identity, electronic development, planning & forecasting, strong verbal communication</p>
+        </div>
 
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-code"></i>
 
+          <h2 class="h3">Computer Clean Code</h2>
 
+          <p>Photoshop, Illustrator, Indesign, PowerPoint, Keynote, Microsoft Office, Solidworks. All websites are written in valid and clean HTML5 / CSS3 & amp; JavaScript (jQuery).</p>
+        </div>
 
-<script>
+        <div class="col-sm-4">
+          <i class="fa fa-4x fa-tablet"></i>
 
+          <h2 class="h3">Design</h2>
 
+          <p>Concept development, concept refinement, wire framing, app plus toy development, game specs, user interface design, creative direction, interaction design, graphic design, advertising programs, quick sketching, photo-realistic renderings, packaging, point of purchase displays, model making,</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-// Start Apple Button 
-
-// Get the modal
-var modal1 = document.getElementById('myModal1');
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close1")[0];
-
-// Get the button that opens the modal
-var btn = document.getElementById('apple');
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal1.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal1.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal1) {
-        modal1.style.display = "none";
-    }
-}
-
-// Start Android Button 
-
-
-// Get the modal
-var modal2 = document.getElementById('myModal2');
-
-// Get the button that opens the modal
-var btn = document.getElementById('android');
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close2")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal2.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal2.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal2) {
-        modal2.style.display = "none";
-    }
-}
-
-
-
-// Start Microsoft Button 
-
-
-// Get the modal
-var modal = document.getElementById('myModal3');
-
-// Get the button that opens the modal
-var btn = document.getElementById('microsoft');
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close3")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal3.style.display = "none";
-    }
-}
-
-
-
-</script>
-
-
-</body>
-
-
-</html>
-
-
-  <head>
-    <h1>This is my Map of Brentwood</h1>
-    <title>Stephens Map</title>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <style>
-
-    table {
-    border: 1px solid #1C6EA4;
-  background-color: #EEEEEE;
-  width: 100%;
-  text-align: left;
-  border-collapse: collapse;
-}
-    tr {
-    vertical-align: left;
-    }
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 80%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-  </head>
-  <body>
-
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 34.0521, lng: -118.4732},
-          zoom: 14
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBptA8XduDIbODwBrQadyYGY4uQwUGwUvA&callback=initMap"
-    async defer></script>
-  <p>Lets Grab a Coffee in Brentwood:)</p>
-<table style="width:100%">
-  <tr>
-    <th>Store</th>
-    <th>Location</th> 
-    <th>Notes</th>
-  </tr>
-  <tr>
-    <td>Starbucks</td>
-    <td>Barrington</td> 
-    <td>Great coffee</td>
-  </tr>
-  <tr>
-    <td>CVS</td>
-    <td>San Vacente</td> 
-    <td>Large Wine Selcetion</td>
-  </tr>
-  <tr>
-    <td>Chin Chin</td>
-    <td>San Vacente</td> 
-    <td>Yummy Cashue Chicken</td>
-  </tr>
-   <tr>
-    <td>The Tavern</td>
-    <td>San Vacente</td> 
-    <td>The President Ate There</td>
-  </tr>
-</table>
-  </body>
-</html>
-
-<script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBptA8XduDIbODwBrQadyYGY4uQwUGwUvA&callback=initMap">
-    </script>
-
-<footer class="footer">
-  Footer 
-</footer>
- 
-
-</html>
+  <section id="folio" class="sec-folio">
+    <div class="container">
+      <h1>Previous Work</h1>
+     
 
