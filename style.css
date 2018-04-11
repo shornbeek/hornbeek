@@ -143,6 +143,8 @@ hr {
   background: url(https://preview.ibb.co/iK56rw/nametag_empty.png) no-repeat center center;
   background-size: 500px 350px;
   background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+
 
 
   &:after {
@@ -290,6 +292,7 @@ header.box-content {
     background: white;   
     margin: 15px;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 
 
 }
@@ -303,6 +306,7 @@ header.box-content {
     border-radius: 20px;
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -314,6 +318,7 @@ header.box-content {
     background: white;   
     margin: 15px;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
      
 
 }
@@ -327,6 +332,7 @@ header.box-content {
     border-radius: 20px;
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+    font-family: 'Poppins', sans-serif;
 }
 
 .icon-button2 {
@@ -337,6 +343,8 @@ header.box-content {
     background: white;   
     margin: 15px;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+
 }
 .icon-button2:hover {
     width: 100px;
@@ -347,6 +355,8 @@ header.box-content {
     border-radius: 20px;
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .icon-button3 {
@@ -357,6 +367,8 @@ header.box-content {
     background: white;   
     margin: 15px;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .icon-button3:hover {
@@ -368,6 +380,8 @@ header.box-content {
     border-radius: 20px;
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .icon-button4 {
@@ -378,6 +392,8 @@ header.box-content {
     background: white;   
     margin: 15px;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .icon-button4:hover {
@@ -389,6 +405,8 @@ header.box-content {
     border-radius: 20px;
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .icon-button5 {
@@ -399,6 +417,8 @@ header.box-content {
     background: white;   
     margin: 15px;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .icon-button5:hover {
@@ -410,6 +430,8 @@ header.box-content {
     border-radius: 20px;
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.124), 0 5px 5px 0 rgba(0,0,0,0.119);
+    font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -496,3 +518,42 @@ justify-content: space-around;
 flex-wrap: wrap;
 align-items: center;
 }
+
+
+.title {
+color: white;
+font-size: 36px;
+background-color: gray;
+width: 100%;
+  margin-top: 0;
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.clip-circle {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+
+.people {
+  margin-left: 22px;
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+color: black;
+font-size: 25px;
+padding-bottom: 25px;
+}
+

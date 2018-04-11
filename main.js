@@ -195,11 +195,12 @@ const phrases = [
   'Hit product deadlines',
   'Software role out stratigies',
   'Big launch events',
-  'Each idea solving a differnt problem',
+  'Each idea solving a different problem',
   'That makes life....',
   'A little better for everyone',
   'Lets build something great together',
-  'Contact me today',
+  'Prepair for tommorrow by...',
+  'Contacting me today',
   'Bye',
 ]
 
