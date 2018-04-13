@@ -284,7 +284,7 @@ header.box-content {
 }
 
 
-.icon-button {
+.icon-buttona {
    -webkit-transition-duration: 0.4s; /* Safari */
     width: 100px;
     height: 100px;
@@ -297,7 +297,7 @@ header.box-content {
 
 }
 
-.icon-button:hover {
+.icon-buttona:hover {
      width: 100px;
     height: 100px;
     float: left;
