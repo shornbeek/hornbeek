@@ -141,7 +141,7 @@ hr {
   position: relative;
   height: 560px;
   background: url(https://preview.ibb.co/iK56rw/nametag_empty.png) no-repeat center center;
-  background-size: 500px 350px;
+  background-size: 400px 250px;
   background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
 
@@ -447,9 +447,9 @@ h1 {
 
 .text {
   position: absolute;
-  width: 450px;
+  width: 250px;
   left: 50%;
-  margin-left: -225px;
+  margin-left: -20%;
   height: 40px;
   top: 50%;
   margin-top: -20px;
