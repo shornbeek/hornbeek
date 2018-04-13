@@ -139,11 +139,17 @@ hr {
 
 .sec-main {
   position: relative;
-  height: 560px;
+  height: 480px;
   background: url(https://preview.ibb.co/iK56rw/nametag_empty.png) no-repeat center center;
   background-size: 400px 250px;
   background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
+     padding: 1em;
+  background-color: white;
+  display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
 
 
 
@@ -236,7 +242,7 @@ hr {
 /*Footer*/
 
 footer {
-  background: #000;
+  background: gray;
 }
 
 .soc-media-ul {
@@ -446,17 +452,37 @@ h1 {
 }
 
 .text {
-  position: absolute;
-  width: 250px;
-  left: 50%;
-  margin-left: -20%;
-  height: 40px;
-  top: 50%;
+
+  position: flex;
+  width: 370px;
+  left: 20%;
+  margin-left: 0%;
+  height: 10px;
+  top: 60%;
   margin-top: -20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 25px;
+   padding: -21em;
+  background-color: white;
+  display: flex;
+   font-family: 'Poppins', sans-serif;
 }
+
+/* Safari */
+/*  position: relative;
+  height: 480px;
+  background: url(https://preview.ibb.co/iK56rw/nametag_empty.png) no-repeat center center;
+  background-size: 400px 250px;
+  background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+     padding: 1em;
+  background-color: white;
+  display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+*/
 
 p {
   display: inline-block;
@@ -612,5 +638,15 @@ padding-bottom: 25px;
     cursor: pointer;
 }
 
+.pads {
+ padding-left: 3%;
+ padding-right: 3%;
+ text-align: left;
+}
+
+.cent1 {
+ text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
 
 
