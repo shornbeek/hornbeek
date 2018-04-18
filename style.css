@@ -459,12 +459,10 @@ h1 {
 
   position: flex;
   width: 360px;
-  left: 20%;
-  margin-left: 2%;
+  margin-left: 5%;
   height: 10px;
   top: 60%;
   margin-top: -20px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 22px;
    padding: -22em;
