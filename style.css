@@ -41,6 +41,7 @@ html {
 }
 
 .container {
+  object-fit: contain;
   display: flex;
  justify-content: space-around;
   
@@ -457,16 +458,16 @@ h1 {
 .text {
 
   position: flex;
-  width: 370px;
+  width: 360px;
   left: 20%;
-  margin-left: 0%;
+  margin-left: 2%;
   height: 10px;
   top: 60%;
   margin-top: -20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 25px;
-   padding: -21em;
+  font-size: 22px;
+   padding: -22em;
   background-color: white;
   display: flex;
    font-family: 'Poppins', sans-serif;
