@@ -145,10 +145,9 @@ hr {
   background-size: 400px 250px;
   background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
-     padding: 1em;
+     padding: 20px;
   background-color: white;
   display: flex;
-justify-content: space-around;
 flex-wrap: wrap;
 align-items: center;
 
