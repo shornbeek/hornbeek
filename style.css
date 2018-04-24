@@ -140,12 +140,12 @@ hr {
 
 .sec-main {
   position: relative;
-  height: 480px;
+  height: 360px;
   background: url(https://preview.ibb.co/iK56rw/nametag_empty.png) no-repeat center center;
   background-size: 400px 250px;
   background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
-     padding: 20px;
+     padding: 10px;
   background-color: white;
   display: flex;
 flex-wrap: wrap;
@@ -470,7 +470,7 @@ h1 {
   top: 60%;
   margin-top: -20px;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
    padding: -22em;
   background-color: white;
   display: flex;
