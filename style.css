@@ -6,17 +6,7 @@ $red: #ad0000;
   transition: all .25s;
 }
 
-/*=Typography=*/
 
-html {
-  font-size: 16px;
-}
-
-
-.navbar a,
-.sec-about p {
-  text-align: center;
-}
 
 .navbar a {
   font-size: 16px;
@@ -464,14 +454,13 @@ h1 {
 .text {
 
   position: flex;
-  width: 360px;
-  margin-left: 3px;
+  width: 355px;
+  margin-left: -20px;
   height: 10px;
   top: 60%;
-  margin-top: -20px;
   font-weight: 600;
   font-size: 20px;
-   padding: -22em;
+   padding: -12em;
   background-color: white;
   display: flex;
    font-family: 'Poppins', sans-serif;
