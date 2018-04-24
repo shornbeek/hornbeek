@@ -123,7 +123,7 @@ $(document).ready(function(){
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = '!<>-_\\/[]{}—=+*^?#________'
+    this.chars = '!<>-_\\/+*^?#__'
     this.update = this.update.bind(this)
   }
   setText(newText) {
@@ -182,26 +182,27 @@ const phrases = [
   'Hello,',
   'My Name is...',
   'Stephen Hornbeek',
-  'I\'m a Software Developer',
+  'I\'m a Creative Leader',
+  'Software Developer',
   'Industrial Designer',
   'Design Director... and',
   'So Much More!',
   'I built this site',
   'Designed the products',
-  'Archetected the UX/UI',
-  'Pitched through layers of managment',
-  'Well, not this site but its products',
+  'Architected the UX/UI',
   'Refine..Refine..Refine...',
   'Hit product deadlines',
-  'Software role out stratigies',
+  'Software rollout strategies',
   'Big launch events',
-  'Each idea solving a different problem',
+  'Solving different problems',
   'That makes life....',
   'A little better for everyone',
-  'Lets build something great together',
-  'Prepair for tommorrow by...',
+  'Let\'s build something great together',
+  'Prepare for tomorrow by...',
   'Contacting me today',
+  'Stephen_Hornbeek@yahoo.com',
   'Bye',
+
 ]
 
 const el = document.querySelector('.text')
@@ -210,7 +211,7 @@ const fx = new TextScramble(el)
 let counter = 0
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 1000)
+    setTimeout(next, 1200)
   })
   counter = (counter + 1) % phrases.length
 }
