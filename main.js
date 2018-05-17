@@ -54,7 +54,7 @@ else
 p.style.visibility = "visible";
 }
 }
-setInterval("blink(bl)",500);
+setInterval("",500);
 
 
 var sentences = new Array ('Hello bro penhead !','Hi ?','Welcome to my new pen ...', 'Dude I know you.', 'Unlimited sentences', 'Just put the text in the JS array', 'Fart Fart Fart ...', '... Thanks for paying but you are out.','Try again ');
@@ -185,7 +185,6 @@ const phrases = [
   'I\'m a Creative Leader',
   'Software Developer',
   'Industrial Designer',
-  'Design Director',
   'and. . . So Much More!',
   'I built this site',
   'Designed the products',
