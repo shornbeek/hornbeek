@@ -196,7 +196,6 @@ const phrases = [
   'Solving different problems',
   'That makes life. . .',
   'Better for everyone',
-  'Let\'s build great together',
   'Prepare for tomorrow by...',
   'Contacting me today',
   'Stephen_Hornbeek@yahoo.com',
