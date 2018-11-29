@@ -170,15 +170,6 @@ align-items: center;
 }
 
 /*About*/
-
-.sec-about a {
-  color: #000;
-  &:hover,
-  &:focus {
-    color: $red;
-  }
-}
-
 /*Services*/
 
 .sec-services {
@@ -215,22 +206,6 @@ align-items: center;
   border-color: $red;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(173, 0, 0, .6);
 }
-
-.sec-contact .btn {
-  padding: .5rem 1.75rem;
-  background: #000;
-  font-size: .95rem;
-  color: #fff;
-  
-  @extend %transition;
-  
-  &:hover,
-  &:focus {
-    background: $red;
-    border-color: darken($red, 10%);
-  }
-}
-
 /*Footer*/
 
 footer {
@@ -761,3 +736,54 @@ padding-bottom: 25px;
   text-align: center;
 }
 
+
+.nav ul {
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color:lightgray;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: gray;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  .home {
+    color: black;
+  }
