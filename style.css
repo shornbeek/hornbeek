@@ -615,7 +615,7 @@ padding-bottom: 25px;
 .cent1 {
  text-align: center;
   font-family: 'Poppins', sans-serif;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 .centa {
@@ -685,8 +685,12 @@ padding-bottom: 25px;
   padding-top: -20px;
 }
 
+.lastp {
+  padding-bottom: 25%;
+}
+
 .horn {
-  padding: 5%;
+  padding-top: 5%;
   text-align: center;
 }
 
@@ -741,4 +745,14 @@ padding-bottom: 25px;
   .home {
     color: black;
   }
+}
+
+@media screen and (min-width: 600px) {
+.nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+   }
 }
