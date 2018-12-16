@@ -29,6 +29,12 @@
   
 }
 
+.containerZ {
+  object-fit: contain;
+  /* display: flex; */
+  justify-content: space-around;
+}
+
 
 p {
   font-size: 16px;
@@ -574,7 +580,7 @@ padding-bottom: 20px;
 
 .people {
 margin-left: 22px;
-display: flex;
+/* display: flex; */
 justify-content: space-around;
 flex-wrap: wrap;
 align-items: center;
