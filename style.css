@@ -56,6 +56,7 @@ p {
 .soc-media-ul a {
   text-align: center;
   text-decoration: none;
+  list-style-type: none;
 }
 
 /*=Base=*/
@@ -87,6 +88,7 @@ ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  
 }
 
 hr {
@@ -543,9 +545,7 @@ align-items: center;
   padding-bottom: 17%;
 }
 
-ul {
-  list-style-type: none;
-}
+
 
 h2 {
 color: black;
@@ -757,6 +757,25 @@ padding-bottom: 25px;
     line-height: 50px;
     font-size: 14px;
    }
+
+   .clip-circleZ {
+    /* object-fit: cover; */
+    /* object-position: center; */
+    width: 100%;
+    /* height: 350px; */
+    overflow: hidden;
+    padding: 35px;
+}
+
+.clip-circleX {
+  /* object-fit: cover; */
+  /* object-position: center; */
+  width: 100%;
+  /* height: 350px; */
+  overflow: hidden;
+  padding: 35px;
+}
+
 }
 
 .down-menu {
