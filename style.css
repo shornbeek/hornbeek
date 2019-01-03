@@ -1,5 +1,8 @@
+img{
 
-
+  max-width:1000px;
+  margin: auto;
+}
 
 .navbar .fa-external-link {
   font-size: 10px;
@@ -237,6 +240,7 @@ footer {
   width: 100%;
   margin: 0;
   padding: 10px;
+  margin: 0 auto;
 
 }
 
