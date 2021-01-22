@@ -750,6 +750,8 @@ padding-bottom: 25px;
   .home {
     color: black;
   }
+
+
 }
 
 @media screen and (min-width: 600px) {
@@ -913,6 +915,7 @@ padding-bottom: 25px;
     font-size: 21px;
     line-height: 1.4;
   }
+ 
 }
 
 .lefty {
@@ -923,4 +926,20 @@ padding-bottom: 25px;
 .lefty1 {
   padding-left: 17px;
   color: black;
+}
+
+
+@media (max-width: 768px) {
+.apushup {
+  margin-top: -60px;
+ }
+}
+
+.bottom{
+  padding-bottom: 100px;
+}
+
+.maxwidther {
+  max-width: 50px;
+  max-height: 50px;
 }
