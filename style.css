@@ -491,7 +491,7 @@ padding-bottom: 20px;
   width: 100%;
   height: 350px;
   overflow: hidden;
-  padding-top: 35px;
+
 }
 
 .clip-circle9 {
@@ -728,6 +728,9 @@ padding-bottom: 25px;
   /* color: #444; */
   cursor: default;
 }
+
+
+
  
 @media screen and (min-width: 600px) {
   .nav li {
@@ -910,5 +913,14 @@ padding-bottom: 25px;
     font-size: 21px;
     line-height: 1.4;
   }
+}
 
+.lefty {
+  padding-left: 17px;
+  color: #555;
+}
+
+.lefty1 {
+  padding-left: 17px;
+  color: black;
 }
