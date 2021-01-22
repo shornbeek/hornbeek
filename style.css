@@ -984,3 +984,8 @@ width: 100vw;
 .markie { 
   max-width: auto;
 }
+
+.navbar {
+  
+  margin-bottom: 0px;
+}
