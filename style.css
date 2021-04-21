@@ -2,6 +2,7 @@
 
 .navbar .fa-external-link {
   font-size: 10px;
+  
 }
 
 .main-heading {
@@ -996,3 +997,18 @@ width: 100vw;
 .maxerwidth {
   max-width: 1500px;
 }
+
+.maxwidthing {
+  max-width: 1500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.maxwidthings {
+  max-width: 1500px;
+  
+}
+
+
